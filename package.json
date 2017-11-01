@@ -1,0 +1,35 @@
+{
+  "name": "droneautomation-raspi-cylon-rcontroller",
+  "version": "0.0.1",
+  "description": "use a Raspeberry Pi to send commands to an RC controller through GPIO using Cylon.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connerk/DroneAutomation-Raspi-Cylon-RController.git"
+  },
+  "keywords": [
+    "Cylon",
+    "Raspi",
+    "Rasberry",
+    "Pi",
+    "RC",
+    "Drone"
+  ],
+  "author": "Kevin Conner, Patrick Cunningham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connerk/DroneAutomation-Raspi-Cylon-RController/issues"
+  },
+  "homepage": "https://github.com/connerk/DroneAutomation-Raspi-Cylon-RController#readme",
+  "dependencies": {
+    "cylon": "^1.3.0",
+    "cylon-api-http": "^0.4.1",
+    "cylon-i2c": "^0.26.1",
+    "cylon-raspi": "^0.20.1",
+    "lodash": "^4.17.4",
+    "pi-blaster.js": "^0.1.1"
+  }
+}
