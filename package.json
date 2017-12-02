@@ -4,6 +4,7 @@
   "description": "use a Raspeberry Pi to send commands to an RC controller through GPIO using Cylon.js",
   "main": "index.js",
   "scripts": {
+    "start": "node --no-deprecation index.js",
     "test": "jest"
   },
   "repository": {
